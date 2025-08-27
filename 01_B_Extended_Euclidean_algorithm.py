@@ -12,8 +12,8 @@ def extended_gcd(a, b):
         y = x1 - (a // b) * y1
         return gcd, x, y
 
-# Example usage:
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 gcd, x, y = extended_gcd(a, b)
 print(f"GCD: {gcd}, x: {x}, y: {y}")
+
